@@ -28,7 +28,7 @@ export async function getPostBySlug(slug) {
   const baseUrl =
     process.env.NODE_ENV === "development"
       ? "http://localhost:3000"
-      : "https://next-js-mark-down-blog.vercel.app/";
+      : "https://next-js-mark-down-blog.vercel.app";
 
   const meta = matter(fileContent.default);
   const content = marked(meta.content);
