@@ -36,6 +36,8 @@ export async function getPostBySlug(slug) {
   const thumbnailUrl = `${baseUrl}/api/thumbnail.png?title=${meta.data
     .title}&thumbnail_bg=${encodeURIComponent(meta.data.thumbnail_bg)}`;
 
+  console.log("thumbnailUrl", thumbnailUrl);
+
   return {
     title: meta.data.title,
     description: meta.data.description,
