@@ -25,18 +25,21 @@ export async function getAllPost() {
 export async function getPostBySlug(slug) {
   const fileContent = await import(`../../_posts/${slug}.md`);
 
-  // const baseUrl = process.env.NODE_ENV === 'development'
-  //   ? 'http://localhost:3000'
-  //   : 'https://youtube-serverless-thumb-generator.vercel.app';
+  const baseUrl =
+    process.env.NODE_ENV === "development"
+      ? "http://localhost:3000"
+      : "https://next-js-mark-down-blog.vercel.app/";
 
   const meta = matter(fileContent.default);
   const content = marked(meta.content);
 
-  // const thumbnailUrl = `${baseUrl}/api/thumbnail.png?title=${meta.data.title}&thumbnail_bg=${encodeURIComponent(meta.data.thumbnail_bg)}`;
+  const thumbnailUrl = `${baseUrl}/api/thumbnail.png?title=${meta.data
+    .title}&thumbnail_bg=${encodeURIComponent(meta.data.thumbnail_bg)}`;
 
   return {
     title: meta.data.title,
     description: meta.data.description,
-    content
+    content,
+    thumbnailUrl
   };
 }
