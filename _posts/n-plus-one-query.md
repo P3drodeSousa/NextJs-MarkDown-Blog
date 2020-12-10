@@ -1,7 +1,7 @@
 ---
 title: "N + 1 Queries: The Easiest Way To Improve Performance"
 description: "A brief explanation of N + 1 queries and how to avoid them."
-thumnail_bG: "#0f4498"
+thumbnail_bg: "#0f4498"
 date: "February 24, 2020"
 tags: "Database"
 ---

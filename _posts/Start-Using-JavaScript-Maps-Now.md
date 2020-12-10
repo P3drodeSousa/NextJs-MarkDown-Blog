@@ -1,7 +1,7 @@
 ---
 title: "Start Using JavaScript Maps Now"
 description: "Maps in JavaScript are more performant, easier to use, and better equipped than JavaScript objects."
-thumnail_bG: "#39c7c6"
+thumbnail_bg: "#39c7c6"
 date: "December 07, 2020"
 tags: "Javascript"
 ---

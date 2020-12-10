@@ -1,7 +1,7 @@
 ---
 title: "Instant Easy React Performance With Debounce"
 description: "Get easy and quick React performance with a custom debounce hook."
-thumnail_bG: "#225a5a"
+thumbnail_bg: "#225a5a"
 date: "October 12, 2020"
 tags: "React"
 ---

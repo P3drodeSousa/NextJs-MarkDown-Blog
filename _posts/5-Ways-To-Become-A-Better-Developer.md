@@ -1,7 +1,7 @@
 ---
 title: "5 Ways To Become A Better Developer"
 description: "Here are some quick tips you can use to improve your development skills."
-thumnail_bG: "#e53940"
+thumbnail_bg: "#e53940"
 date: "September 21, 2020"
 tags: "Non-Technical Discussion"
 ---

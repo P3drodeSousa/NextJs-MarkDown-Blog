@@ -1,7 +1,7 @@
 ---
 title: "How To Use And Write Express Middleware"
 description: "How passing functions to other functions works in JavaScript."
-thumnail_bG: "#008F7A"
+thumbnail_bg: "#008F7A"
 date: "December 09, 2019"
 tags: ["JavaScript", "Node.js"]
 ---

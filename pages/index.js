@@ -2,7 +2,6 @@ import { getAllPost } from "./api/posts";
 import Link from "next/link";
 
 export default function Home({ posts }) {
-  console.log(posts);
   return (
     <div>
       <h1>Blog de Ramon Rodriguez</h1>

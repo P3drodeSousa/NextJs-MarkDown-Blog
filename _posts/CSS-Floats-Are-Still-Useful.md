@@ -1,7 +1,7 @@
 ---
 title: "CSS Floats Are Still Useful"
 description: "A short explanation on how CSS floats are still useful."
-thumnail_bG: "#dfd552"
+thumbnail_bg: "#dfd552"
 date: "November 09, 2020"
 tags: "CSS"
 ---

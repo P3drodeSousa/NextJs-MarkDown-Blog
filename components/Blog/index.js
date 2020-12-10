@@ -15,7 +15,7 @@ export default function Blog(props) {
         <meta property="og:title" content={props.title} />
         <meta property="og:description" content={props.description} />
 
-        {/* <meta property="og:image" content={props.thumbnailUrl} /> */}
+        <meta property="og:image" content={props.thumbnailUrl} />
         <meta property="og:image:type" content="image/png" />
 
         <meta property="og:image:width" content="1200" />
@@ -24,12 +24,13 @@ export default function Blog(props) {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={props.title} />
         <meta name="twitter:description" content={props.description} />
-        {/* <meta name="twitter:image" content={props.thumbnailUrl} /> */}
+        <meta name="twitter:image" content={props.thumbnailUrl} />
       </Head>
       <article>
         <h1>
           {props.title}
         </h1>
+        <img width="600" src={props.thumbnailUrl} alt={props.title} />
         <div dangerouslySetInnerHTML={{ __html: props.content }} />
       </article>
     </main>

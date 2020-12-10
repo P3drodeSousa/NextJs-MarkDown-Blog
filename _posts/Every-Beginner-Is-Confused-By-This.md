@@ -1,7 +1,7 @@
 ---
 title: "Every Beginner Is Confused By This"
 description: "How passing functions to other functions works in JavaScript."
-thumnail_bG: "#845EC2"
+thumbnail_bg: "#845EC2"
 date: "October 26, 2020"
 tags: "JavaScript"
 ---
