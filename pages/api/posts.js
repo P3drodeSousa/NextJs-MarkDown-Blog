@@ -33,7 +33,7 @@ export async function getPostBySlug(slug) {
   const meta = matter(fileContent.default);
   const content = marked(meta.content);
 
-  const thumbnailUrl = `${baseUrl}/api/thumbnail.png?title=${meta.data
+  const thumbnailUrl = `${baseUrl}/api/thumbnail?title=${meta.data
     .title}&thumbnail_bg=${encodeURIComponent(meta.data.thumbnail_bg)}`;
 
   return {
